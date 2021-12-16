@@ -5,9 +5,23 @@
   "main": "src/index.ts",
   "unpkg": "dist/shared.esm-bundler.js",
   "buildOptions": {
+    "name": "MonereShared",
     "formats": [
       "esm-bundler",
-      "cjs"
+      "cjs",
+      "global"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veeui/monere.git",
+    "directory": "packages/shared"
+  },
+  "keywords": [
+    "monere",
+    "shared"
+  ],
+  "author": "李恒谦",
+  "license": "ISC",
+  "homepage": "https://github.com/veeui/monere#readme"
 }
