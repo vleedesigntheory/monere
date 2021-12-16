@@ -1,0 +1,18 @@
+{
+  "name": "@monere/performance",
+  "version": "1.0.0",
+  "description": "@monere/performance",
+  "main": "src/index.ts",
+  "unpkg": "dist/behavior.esm-bundler.js",
+  "buildOptions": {
+    "name": "MonerePerformance",
+    "formats": [
+      "esm-bundler",
+      "cjs",
+      "global"
+    ]
+  },
+  "dependencies": {
+    "@monere/shared": "workspace:^1.0.0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@monere/error",
+  "version": "1.0.0",
+  "description": "@monere/error",
+  "main": "src/index.ts",
+  "unpkg": "dist/behavior.esm-bundler.js",
+  "buildOptions": {
+    "name": "MonereError",
+    "formats": [
+      "esm-bundler",
+      "cjs",
+      "global"
+    ]
+  },
+  "dependencies": {
+    "@monere/shared": "workspace:^1.0.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@monere/shared",
+  "version": "1.0.0",
+  "description": "@monere/shared",
+  "main": "src/index.ts",
+  "unpkg": "dist/shared.esm-bundler.js",
+  "buildOptions": {
+    "formats": [
+      "esm-bundler",
+      "cjs"
+    ]
+  }
+}

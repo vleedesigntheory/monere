@@ -1,0 +1,21 @@
+{
+  "name": "monere",
+  "version": "1.0.0",
+  "description": "monere",
+  "main": "src/index.ts",
+  "unpkg": "dist/monere.esm-bundler.js",
+  "buildOptions": {
+    "name": "monere",
+    "formats": [
+      "esm-bundler",
+      "cjs",
+      "global"
+    ]
+  },
+  "dependencies": {
+    "@monere/core": "workspace:^1.0.0",
+    "@monere/plugin": "workspace:^1.0.0",
+    "@monere/plugin-behavior-pv": "workspace:^1.0.0",
+    "@monere/shared": "workspace:^1.0.0"
+  }
+}
