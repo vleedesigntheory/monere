@@ -1,6 +1,6 @@
 {
   "name": "@monere/core",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "@monere/core",
   "main": "src/index.ts",
   "unpkg": "dist/core.esm-bundler.js",
@@ -13,9 +13,9 @@
     ]
   },
   "dependencies": {
-    "@monere/behavior": "workspace:^1.0.0",
-    "@monere/error": "workspace:^1.0.0",
-    "@monere/performance": "workspace:^1.0.0",
-    "@monere/plugin": "workspace:^1.0.0"
+    "@monere/behavior": "1.0.3",
+    "@monere/error": "1.0.3",
+    "@monere/performance": "1.0.3",
+    "@monere/plugin": "1.0.3"
   }
 }

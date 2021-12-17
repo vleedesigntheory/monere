@@ -91,10 +91,6 @@ async function main() {
     console.log(`(skipped)`)
   }
 
-  // generate changelog
-  step('\nGenerating changelog...')
-  await run(`pnpm`, ['run', 'changelog'])
-
   // update pnpm-lock.yaml
   step('\nUpdating lockfile...')
   await run(`pnpm`, ['install', '--prefer-offline'])

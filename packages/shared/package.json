@@ -1,6 +1,6 @@
 {
   "name": "@monere/shared",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "@monere/shared",
   "main": "src/index.ts",
   "unpkg": "dist/shared.esm-bundler.js",

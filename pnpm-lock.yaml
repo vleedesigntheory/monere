@@ -36,16 +36,16 @@ importers:
 
   packages/behavior:
     specifiers:
-      '@monere/shared': workspace:^1.0.0
+      '@monere/shared': 1.0.3
     dependencies:
       '@monere/shared': link:../shared
 
   packages/core:
     specifiers:
-      '@monere/behavior': workspace:^1.0.0
-      '@monere/error': workspace:^1.0.0
-      '@monere/performance': workspace:^1.0.0
-      '@monere/plugin': workspace:^1.0.0
+      '@monere/behavior': 1.0.3
+      '@monere/error': 1.0.3
+      '@monere/performance': 1.0.3
+      '@monere/plugin': 1.0.3
     dependencies:
       '@monere/behavior': link:../behavior
       '@monere/error': link:../error
@@ -54,16 +54,16 @@ importers:
 
   packages/error:
     specifiers:
-      '@monere/shared': workspace:^1.0.0
+      '@monere/shared': 1.0.3
     dependencies:
       '@monere/shared': link:../shared
 
   packages/monere:
     specifiers:
-      '@monere/core': workspace:^1.0.0
-      '@monere/plugin': workspace:^1.0.0
-      '@monere/plugin-behavior-pv': workspace:^1.0.0
-      '@monere/shared': workspace:^1.0.0
+      '@monere/core': 1.0.3
+      '@monere/plugin': 1.0.3
+      '@monere/plugin-behavior-pv': 1.0.3
+      '@monere/shared': 1.0.3
     dependencies:
       '@monere/core': link:../core
       '@monere/plugin': link:../plugin
@@ -72,7 +72,7 @@ importers:
 
   packages/performance:
     specifiers:
-      '@monere/shared': workspace:^1.0.0
+      '@monere/shared': 1.0.3
     dependencies:
       '@monere/shared': link:../shared
 
@@ -81,8 +81,8 @@ importers:
 
   packages/plugin-behavior-pv:
     specifiers:
-      '@monere/plugin': workspace:^1.0.0
-      '@monere/shared': workspace:^1.0.0
+      '@monere/plugin': 1.0.3
+      '@monere/shared': 1.0.3
     dependencies:
       '@monere/plugin': link:../plugin
       '@monere/shared': link:../shared

@@ -1,6 +1,6 @@
 {
   "name": "@monere/plugin",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "@monere/plugin",
   "main": "src/index.ts",
   "unpkg": "dist/plugin.esm-bundler.js",

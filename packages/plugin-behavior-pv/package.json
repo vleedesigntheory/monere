@@ -1,6 +1,6 @@
 {
   "name": "@monere/plugin-behavior-pv",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "@monere/plugin-behavior-pv",
   "main": "src/index.ts",
   "unpkg": "dist/behavior.esm-bundler.js",
@@ -13,7 +13,7 @@
     ]
   },
   "dependencies": {
-    "@monere/plugin": "workspace:^1.0.0",
-    "@monere/shared": "workspace:^1.0.0"
+    "@monere/plugin": "1.0.3",
+    "@monere/shared": "1.0.3"
   }
 }

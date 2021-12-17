@@ -1,6 +1,6 @@
 {
   "name": "@monere/behavior",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "@monere/behavior",
   "main": "src/index.ts",
   "unpkg": "dist/behavior.esm-bundler.js",
@@ -13,6 +13,6 @@
     ]
   },
   "dependencies": {
-    "@monere/shared": "workspace:^1.0.0"
+    "@monere/shared": "1.0.3"
   }
 }
