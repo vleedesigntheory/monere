@@ -196,7 +196,7 @@ async function publishPackage(pkgName, version, runIfNotDry) {
     await runIfNotDry(
       // note: use of yarn is intentional here as we rely on its publishing
       // behavior.
-      'yarn',
+      'npm',
       [
         'publish',
         '--new-version',
