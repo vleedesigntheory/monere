@@ -14,7 +14,7 @@
   "keywords": [
     "monere"
   ],
-  "author": "we452366",
+  "author": "李恒谦",
   "license": "ISC",
   "devDependencies": {
     "@microsoft/api-extractor": "7.15.1",

@@ -15,5 +15,19 @@
   "dependencies": {
     "@monere/plugin": "1.0.2",
     "@monere/shared": "1.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veeui/monere.git",
+    "directory": "packages/shared"
+  },
+  "keywords": [
+    "monere",
+    "plugin",
+    "behavior",
+    "pv"
+  ],
+  "author": "李恒谦",
+  "license": "ISC",
+  "homepage": "https://github.com/veeui/monere#readme"
 }
