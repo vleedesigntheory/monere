@@ -199,7 +199,6 @@ async function publishPackage(pkgName, version, runIfNotDry) {
       'npm',
       [
         'publish',
-        
         '--access',
         'public'
       ],
