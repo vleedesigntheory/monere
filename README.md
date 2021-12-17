@@ -12,7 +12,7 @@ Monere (pronounced /mɔ:nei'li:/, like the chinese '莫奈里') is A Web Monitor
 
 |Project|Description|
 |:-:|:-:|
-|[plugin-behavior-pv](https://github.com/we452366/vee-cli)|数据监控，PV埋点|
+|[plugin-behavior-pv](https://github.com/vee-monere/monere/tree/main/packages/plugin-behavior-pv)|数据监控，PV埋点|
 
 ## Documentation
 
