@@ -91,10 +91,6 @@ async function main() {
     console.log(`(skipped)`)
   }
 
-  // generate changelog
-  step('\nGenerating changelog...')
-  await run(`pnpm`, ['run', 'changelog'])
-
   // update pnpm-lock.yaml
   step('\nUpdating lockfile...')
   await run(`pnpm`, ['install', '--prefer-offline'])
@@ -200,12 +196,9 @@ async function publishPackage(pkgName, version, runIfNotDry) {
     await runIfNotDry(
       // note: use of yarn is intentional here as we rely on its publishing
       // behavior.
-      'yarn',
+      'npm',
       [
         'publish',
-        '--new-version',
-        version,
-        ...(releaseTag ? ['--tag', releaseTag] : []),
         '--access',
         'public'
       ],
