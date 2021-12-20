@@ -44,14 +44,18 @@ function createConfig(format, output) {
     if(format == 'global') {
         output.name = pkg.buildOptions.name;
     } else {
-        external = [...Object.keys(pkg.dependencies)]
+        if((pkg.dependencies)) external = [...Object.keys(pkg.dependencies)]
     }
     return {
         input: resolve(`src/index.ts`),
         output,
         external,
         plugins: [
-            ts(),
+            ts({
+                tsConfigOverride: {
+                    declaration: !!pkg.types
+                }
+            }),
             json(),
             commonjs(),
             nodeResolve()
