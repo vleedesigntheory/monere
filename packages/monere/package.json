@@ -2,8 +2,10 @@
   "name": "monere",
   "version": "1.0.2",
   "description": "monere",
-  "main": "src/index.ts",
-  "unpkg": "dist/monere.esm-bundler.js",
+  "main": "dist/monere.cjs.js",
+  "module": "dist/monere.esm-bundler.js",
+  "browser": "dist/monere.global.js",
+  "unpkg": "dist/monere.global.js",
   "buildOptions": {
     "name": "monere",
     "formats": [
@@ -17,5 +19,16 @@
     "@monere/plugin": "1.0.2",
     "@monere/plugin-behavior-pv": "1.0.2",
     "@monere/shared": "1.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veeui/monere.git",
+    "directory": "packages/monere"
+  },
+  "keywords": [
+    "monere"
+  ],
+  "author": "李恒谦",
+  "license": "ISC",
+  "homepage": "https://github.com/veeui/monere#readme"
 }
