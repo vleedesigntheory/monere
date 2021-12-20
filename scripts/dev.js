@@ -5,7 +5,7 @@ const { fuzzyMatchTarget } = require('./utils');
 const args = minimist(process.argv.slice(2));
 
 // 获取执行命令
-const target = args._.length ? fuzzyMatchTarget(args._)[0] : 'plugin';
+const target = args._.length ? fuzzyMatchTarget(args._)[0] : 'monere';
 const formats = args.f || args.formats;
 const sourcemap = args.s || args.sourcemap;
 
@@ -16,7 +16,7 @@ execa('rollup', [
     '--environment',
     [
         `TARGET:${target}`,
-        `FORMATS:${formats || 'global'}`,
+        `FORMATS:${formats || 'cjs'}`,
         sourcemap ? `SOURCE_MAP:true` : ``
     ].filter(Boolean).join(',')
 ], {

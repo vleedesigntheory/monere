@@ -1,1 +1,0 @@
-console.log('init', require('../dist/monere.cjs'))

@@ -11,6 +11,9 @@
     "jsx": "preserve", // jsx不转义
     "lib": ["esnext", "dom"], // 支持的类库 esnext及dom
     "baseUrl": ".", // 以当前路径为基准进行查找
+    // "declaration": true, // 生成定义文件
+    // "declarationMap": false, // 生成定义sourceMap
+    // "declarationDir": "./dist/types", // 定义文件输出目录
     "paths": {
       "@monere/*": ["packages/*/src"], // 引入的@monere都去packages下查找
       "monere": ["packages/monere/src"]

@@ -2,8 +2,10 @@
   "name": "@monere/plugin-behavior-pv",
   "version": "1.0.2",
   "description": "@monere/plugin-behavior-pv",
-  "main": "src/index.ts",
-  "unpkg": "dist/behavior.esm-bundler.js",
+  "main": "dist/plugin-behavior-pv.cjs.js",
+  "module": "dist/plugin-behavior-pv.esm-bundler.js",
+  "browser": "dist/plugin-behavior-pv.global.js",
+  "unpkg": "dist/plugin-behavior-pv.global.js",
   "buildOptions": {
     "name": "MonerePluginPV",
     "formats": [
@@ -19,7 +21,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/veeui/monere.git",
-    "directory": "packages/shared"
+    "directory": "packages/plugin-behavior-pv"
   },
   "keywords": [
     "monere",

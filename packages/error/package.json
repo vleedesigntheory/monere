@@ -2,8 +2,10 @@
   "name": "@monere/error",
   "version": "1.0.2",
   "description": "@monere/error",
-  "main": "src/index.ts",
-  "unpkg": "dist/behavior.esm-bundler.js",
+  "main": "dist/error.cjs.js",
+  "module": "dist/error.esm-bundler.js",
+  "browser": "dist/error.global.js",
+  "unpkg": "dist/error.global.js",
   "buildOptions": {
     "name": "MonereError",
     "formats": [
@@ -14,5 +16,17 @@
   },
   "dependencies": {
     "@monere/shared": "1.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veeui/monere.git",
+    "directory": "packages/error"
+  },
+  "keywords": [
+    "monere",
+    "error"
+  ],
+  "author": "李恒谦",
+  "license": "ISC",
+  "homepage": "https://github.com/veeui/monere#readme"
 }
