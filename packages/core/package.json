@@ -4,7 +4,6 @@
   "description": "@monere/core",
   "main": "dist/core.cjs.js",
   "module": "dist/core.esm-bundler.js",
-  "browser": "dist/core.global.js",
   "unpkg": "dist/core.global.js",
   "buildOptions": {
     "name": "MonereCore",

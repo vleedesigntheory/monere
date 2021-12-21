@@ -1,10 +1,9 @@
 {
   "name": "monere",
-  "version": "1.0.4",
+  "version": "1.0.4-alpha",
   "description": "monere",
   "main": "dist/monere.cjs.js",
   "module": "dist/monere.esm-bundler.js",
-  "browser": "dist/monere.global.js",
   "unpkg": "dist/monere.global.js",
   "buildOptions": {
     "name": "monere",

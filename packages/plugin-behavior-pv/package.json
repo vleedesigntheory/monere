@@ -4,7 +4,6 @@
   "description": "@monere/plugin-behavior-pv",
   "main": "dist/plugin-behavior-pv.cjs.js",
   "module": "dist/plugin-behavior-pv.esm-bundler.js",
-  "browser": "dist/plugin-behavior-pv.global.js",
   "unpkg": "dist/plugin-behavior-pv.global.js",
   "buildOptions": {
     "name": "MonerePluginPV",

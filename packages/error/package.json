@@ -4,7 +4,6 @@
   "description": "@monere/error",
   "main": "dist/error.cjs.js",
   "module": "dist/error.esm-bundler.js",
-  "browser": "dist/error.global.js",
   "unpkg": "dist/error.global.js",
   "buildOptions": {
     "name": "MonereError",

@@ -3,7 +3,7 @@ import { Plugin } from "@monere/plugin";
 
 import { pv } from "@monere/plugin-behavior-pv";
 
-class Monere {
+export class Monere {
   constructor(options: IOptions) {
     const defaultPlugins = [
         new Plugin("monere-behavior-pv", pv)
@@ -12,5 +12,3 @@ class Monere {
     new Core(options)
   }
 }
-
-export default Monere;

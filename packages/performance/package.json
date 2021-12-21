@@ -4,7 +4,6 @@
   "description": "@monere/performance",
   "main": "dist/performance.cjs.js",
   "module": "dist/performance.esm-bundler.js",
-  "browser": "dist/performance.global.js",
   "unpkg": "dist/performance.global.js",
   "buildOptions": {
     "name": "MonerePerformance",
