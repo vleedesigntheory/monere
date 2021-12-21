@@ -1,6 +1,6 @@
 {
   "name": "@monere/plugin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "@monere/plugin",
   "main": "dist/plugin.cjs.js",
   "module": "dist/plugin.esm-bundler.js",
