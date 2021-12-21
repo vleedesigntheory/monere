@@ -1,10 +1,9 @@
 {
   "name": "@monere/behavior",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "@monere/behavior",
   "main": "dist/behavior.cjs.js",
   "module": "dist/behavior.esm-bundler.js",
-  "browser": "dist/behavior.global.js",
   "unpkg": "dist/behavior.global.js",
   "buildOptions": {
     "name": "MonereBehavior",
@@ -15,7 +14,7 @@
     ]
   },
   "dependencies": {
-    "@monere/shared": "1.0.3"
+    "@monere/shared": "1.0.5"
   },
   "repository": {
     "type": "git",

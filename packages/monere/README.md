@@ -6,22 +6,27 @@
 
 Monere (pronounced /mɔ:nei'li:/, like the chinese '莫奈里') is A Web Monitor SDK.
 
-## Installation
+## Start
+### cdn
+
+> https://unpkg.com/monere/dist/monere.global.js
+
+### npm
 
 ```
 $ npm install monere
 ```
 
-## Example
-
 ```
-const monere = require('monere');
+import { Monere } from 'monere';
 
-monere.init({
-    
+new Monere({
+    url: '',
+    appID: '',
+    userID: '',
+    plugins: []
 })
 ```
-
 ## Plugins
 
 |Project|Description|

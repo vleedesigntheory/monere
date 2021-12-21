@@ -1,10 +1,9 @@
 {
   "name": "@monere/performance",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "@monere/performance",
   "main": "dist/performance.cjs.js",
   "module": "dist/performance.esm-bundler.js",
-  "browser": "dist/performance.global.js",
   "unpkg": "dist/performance.global.js",
   "buildOptions": {
     "name": "MonerePerformance",
@@ -15,7 +14,7 @@
     ]
   },
   "dependencies": {
-    "@monere/shared": "1.0.3"
+    "@monere/shared": "1.0.5"
   },
   "repository": {
     "type": "git",

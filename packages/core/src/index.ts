@@ -2,7 +2,7 @@ import { Behavior } from '@monere/behavior'
 import { Performance } from '@monere/performance'
 import { Error } from '@monere/error'
 import { config, isPlugin, isFunction } from '@monere/shared'
-export class Monere {
+export class Core {
   options: IOptions
   behaviorPlugins: any
   performancePlugins: any

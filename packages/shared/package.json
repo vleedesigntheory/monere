@@ -1,10 +1,9 @@
 {
   "name": "@monere/shared",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "@monere/shared",
   "main": "dist/shared.cjs.js",
   "module": "dist/shared.esm-bundler.js",
-  "browser": "dist/monere.global.js",
   "unpkg": "dist/monere.global.js",
   "buildOptions": {
     "name": "MonereShared",

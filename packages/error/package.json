@@ -1,10 +1,9 @@
 {
   "name": "@monere/error",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "@monere/error",
   "main": "dist/error.cjs.js",
   "module": "dist/error.esm-bundler.js",
-  "browser": "dist/error.global.js",
   "unpkg": "dist/error.global.js",
   "buildOptions": {
     "name": "MonereError",
@@ -15,7 +14,7 @@
     ]
   },
   "dependencies": {
-    "@monere/shared": "1.0.3"
+    "@monere/shared": "1.0.5"
   },
   "repository": {
     "type": "git",

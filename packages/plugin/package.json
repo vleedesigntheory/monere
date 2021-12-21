@@ -1,10 +1,9 @@
 {
   "name": "@monere/plugin",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "@monere/plugin",
   "main": "dist/plugin.cjs.js",
   "module": "dist/plugin.esm-bundler.js",
-  "browser": "dist/plugin.global.js",
   "unpkg": "dist/plugin.global.js",
   "buildOptions": {
     "name": "MonerePlugin",
