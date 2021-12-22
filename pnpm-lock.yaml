@@ -36,16 +36,16 @@ importers:
 
   packages/behavior:
     specifiers:
-      '@monere/shared': 1.0.5
+      '@monere/shared': 1.0.6
     dependencies:
       '@monere/shared': link:../shared
 
   packages/core:
     specifiers:
-      '@monere/behavior': 1.0.5
-      '@monere/error': 1.0.5
-      '@monere/performance': 1.0.5
-      '@monere/plugin': 1.0.5
+      '@monere/behavior': 1.0.6
+      '@monere/error': 1.0.6
+      '@monere/performance': 1.0.6
+      '@monere/plugin': 1.0.6
     dependencies:
       '@monere/behavior': link:../behavior
       '@monere/error': link:../error
@@ -54,16 +54,16 @@ importers:
 
   packages/error:
     specifiers:
-      '@monere/shared': 1.0.5
+      '@monere/shared': 1.0.6
     dependencies:
       '@monere/shared': link:../shared
 
   packages/monere:
     specifiers:
-      '@monere/core': 1.0.5
-      '@monere/plugin': 1.0.5
-      '@monere/plugin-behavior-pv': 1.0.5
-      '@monere/shared': 1.0.5
+      '@monere/core': 1.0.6
+      '@monere/plugin': 1.0.6
+      '@monere/plugin-behavior-pv': 1.0.6
+      '@monere/shared': 1.0.6
     dependencies:
       '@monere/core': link:../core
       '@monere/plugin': link:../plugin
@@ -72,7 +72,7 @@ importers:
 
   packages/performance:
     specifiers:
-      '@monere/shared': 1.0.5
+      '@monere/shared': 1.0.6
     dependencies:
       '@monere/shared': link:../shared
 
@@ -81,32 +81,32 @@ importers:
 
   packages/plugin-behavior-click:
     specifiers:
-      '@monere/plugin': 1.0.5
-      '@monere/shared': 1.0.5
+      '@monere/plugin': 1.0.6
+      '@monere/shared': 1.0.6
     dependencies:
       '@monere/plugin': link:../plugin
       '@monere/shared': link:../shared
 
   packages/plugin-behavior-duration:
     specifiers:
-      '@monere/plugin': 1.0.5
-      '@monere/shared': 1.0.5
+      '@monere/plugin': 1.0.6
+      '@monere/shared': 1.0.6
     dependencies:
       '@monere/plugin': link:../plugin
       '@monere/shared': link:../shared
 
   packages/plugin-behavior-pageChange:
     specifiers:
-      '@monere/plugin': 1.0.5
-      '@monere/shared': 1.0.5
+      '@monere/plugin': 1.0.6
+      '@monere/shared': 1.0.6
     dependencies:
       '@monere/plugin': link:../plugin
       '@monere/shared': link:../shared
 
   packages/plugin-behavior-pv:
     specifiers:
-      '@monere/plugin': 1.0.5
-      '@monere/shared': 1.0.5
+      '@monere/plugin': 1.0.6
+      '@monere/shared': 1.0.6
     dependencies:
       '@monere/plugin': link:../plugin
       '@monere/shared': link:../shared

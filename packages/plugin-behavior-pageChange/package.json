@@ -1,6 +1,6 @@
 {
   "name": "@monere/plugin-behavior-pagechange",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "@monere/plugin-behavior-pagechange",
   "main": "dist/plugin-behavior-pagechange.cjs.js",
   "module": "dist/plugin-behavior-pagechange.esm-bundler.js",
@@ -28,7 +28,7 @@
   "license": "ISC",
   "homepage": "https://github.com/veeui/monere#readme",
   "dependencies": {
-    "@monere/plugin": "1.0.5",
-    "@monere/shared": "1.0.5"
+    "@monere/plugin": "1.0.6",
+    "@monere/shared": "1.0.6"
   }
 }

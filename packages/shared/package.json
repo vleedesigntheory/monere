@@ -1,6 +1,6 @@
 {
   "name": "@monere/shared",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "@monere/shared",
   "main": "dist/shared.cjs.js",
   "module": "dist/shared.esm-bundler.js",

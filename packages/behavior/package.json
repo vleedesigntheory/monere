@@ -1,6 +1,6 @@
 {
   "name": "@monere/behavior",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "@monere/behavior",
   "main": "dist/behavior.cjs.js",
   "module": "dist/behavior.esm-bundler.js",
@@ -14,7 +14,7 @@
     ]
   },
   "dependencies": {
-    "@monere/shared": "1.0.5"
+    "@monere/shared": "1.0.6"
   },
   "repository": {
     "type": "git",
