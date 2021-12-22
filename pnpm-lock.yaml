@@ -79,6 +79,22 @@ importers:
   packages/plugin:
     specifiers: {}
 
+  packages/plugin-behavior-click:
+    specifiers:
+      '@monere/plugin': workspace:1.0.5
+      '@monere/shared': workspace:1.0.5
+    dependencies:
+      '@monere/plugin': link:../plugin
+      '@monere/shared': link:../shared
+
+  packages/plugin-behavior-duration:
+    specifiers:
+      '@monere/plugin': workspace:^1.0.5
+      '@monere/shared': workspace:^1.0.5
+    dependencies:
+      '@monere/plugin': link:../plugin
+      '@monere/shared': link:../shared
+
   packages/plugin-behavior-pv:
     specifiers:
       '@monere/plugin': 1.0.5
