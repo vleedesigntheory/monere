@@ -21,7 +21,7 @@ $ npm install monere
 import { Monere } from 'monere';
 
 new Monere({
-    url: '',
+    url: '', // 监控服务器地址
     appID: '',
     userID: '',
     plugins: []
@@ -29,9 +29,14 @@ new Monere({
 ```
 ## Plugins
 
+## Plugins
+
 |Project|Description|
 |:-:|:-:|
 |[plugin-behavior-pv](https://github.com/vee-monere/monere/tree/main/packages/plugin-behavior-pv)|数据监控，PV埋点|
+|[plugin-behavior-click](https://github.com/vee-monere/monere/tree/main/packages/plugin-behavior-click)|数据监控，点击事件埋点|
+|[plugin-behavior-duration](https://github.com/vee-monere/monere/tree/main/packages/plugin-behavior-duration)|数据监控，页面停留时长|
+|[plugin-behavior-pagechange](https://github.com/vee-monere/monere/tree/main/packages/plugin-behavior-pagechange)|数据监控，页面切换|
 
 ## License
 
