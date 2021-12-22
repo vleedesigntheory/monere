@@ -1,5 +1,6 @@
 import { Core } from "@monere/core";
 import { Plugin } from "@monere/plugin";
+<<<<<<< HEAD
 import { setConfig } from '@monere/shared'
 import { pv } from "@monere/plugin-behavior-pv";
 import { click } from '@monere/plugin-behavior-click';
@@ -25,3 +26,17 @@ export class Monere {
     createMonere(options);
   }
 }
+=======
+
+import { pv } from "@monere/plugin-behavior-pv";
+
+export class Monere {
+  constructor(options: IOptions) {
+    const defaultPlugins = [
+        new Plugin("monere-behavior-pv", pv)
+    ];
+    options.plugins.concat(defaultPlugins);
+    new Core(options)
+  }
+}
+>>>>>>> main

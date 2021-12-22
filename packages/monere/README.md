@@ -21,14 +21,21 @@ $ npm install monere
 import { Monere } from 'monere';
 
 new Monere({
+<<<<<<< HEAD
     url: '', // 监控服务器地址
+=======
+    url: '',
+>>>>>>> main
     appID: '',
     userID: '',
     plugins: []
 })
 ```
+<<<<<<< HEAD
 ## Plugins
 
+=======
+>>>>>>> main
 ## Plugins
 
 |Project|Description|
