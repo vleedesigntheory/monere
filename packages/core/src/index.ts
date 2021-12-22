@@ -1,6 +1,6 @@
 import { Behavior } from '@monere/behavior'
 import { Performance } from '@monere/performance'
-import { Error } from '@monere/error'
+import { Error as _Error } from '@monere/error'
 import { config, isPlugin, isFunction } from '@monere/shared'
 export class Core {
   options: IOptions
@@ -8,7 +8,7 @@ export class Core {
   performancePlugins: any
   errorPlugins: any
   constructor(options: Object) {
-    this.options = { ...options, ...config }
+    this.options = options;
     this.behaviorPlugins = [];
     this.performancePlugins = [];
     this.errorPlugins = [];
@@ -18,7 +18,7 @@ export class Core {
     console.log('Monere init')
     new Behavior(this.behaviorPlugins)
     new Performance(this.performancePlugins)
-    new Error(this.errorPlugins)
+    new _Error(this.errorPlugins)
   }
   plugin(name: String, handler: Function) {
     if (!isPlugin(name)) {
