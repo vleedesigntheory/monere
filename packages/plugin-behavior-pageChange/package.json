@@ -28,7 +28,7 @@
   "license": "ISC",
   "homepage": "https://github.com/veeui/monere#readme",
   "dependencies": {
-    "@monere/plugin": "workspace:1.0.5",
-    "@monere/shared": "workspace:1.0.5"
+    "@monere/plugin": "1.0.5",
+    "@monere/shared": "1.0.5"
   }
 }
