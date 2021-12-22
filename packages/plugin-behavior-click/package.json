@@ -1,0 +1,34 @@
+{
+  "name": "@monere/plugin-behavior-click",
+  "version": "1.0.5",
+  "description": "@monere/plugin-behavior-click",
+  "main": "dist/plugin-behavior-click.cjs.js",
+  "module": "dist/plugin-behavior-click.esm-bundler.js",
+  "unpkg": "dist/plugin-behavior-click.global.js",
+  "buildOptions": {
+    "name": "MonerePluginClick",
+    "formats": [
+      "esm-bundler",
+      "cjs",
+      "global"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veeui/monere.git",
+    "directory": "packages/plugin-behavior-click"
+  },
+  "keywords": [
+    "monere",
+    "plugin",
+    "behavior",
+    "click"
+  ],
+  "author": "李恒谦",
+  "license": "ISC",
+  "homepage": "https://github.com/veeui/monere#readme",
+  "dependencies": {
+    "@monere/plugin": "workspace:1.0.5",
+    "@monere/shared": "workspace:1.0.5"
+  }
+}
