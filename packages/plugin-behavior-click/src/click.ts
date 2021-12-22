@@ -2,12 +2,12 @@ import { lazyReportCache, getPageURL, getUUID } from '@monere/shared'
 
 export function click() {
     ['mousedown', 'touchstart'].forEach(eventType => {
-        let timer;
+        let timer:any = null;
         window.addEventListener(eventType, event => {
-            clearTimeout(timer);
+            clearTimeout(timer as any);
             timer = setTimeout(() => {
                 const target = event.target;
-                const { top, left } = target.getBoundingClientRect();
+                const { top, left } = (target as any).getBoundingClientRect() as DOMRect;
 
                 lazyReportCache({
                     top,
@@ -17,14 +17,14 @@ export function click() {
                     scrollTop: document.documentElement.scrollTop || document.body.scrollTop,
                     type: 'behavior',
                     subType: 'click',
-                    target: target.tagName,
-                    paths: event.path?.map(item => item.tagName).filter(Boolean),
+                    target: (target as any).tagName,
+                    paths: (event as any).path?.map(item => item.tagName).filter(Boolean),
                     startTime: event.timeStamp,
                     pageUrl: getPageURL(),
-                    outerHTML: target.outerHTML,
-                    innerHTML: target.innerHTML,
-                    width: target.offsetWidth,
-                    height: target.offsetHeight,
+                    outerHTML: (target as any).outerHTML,
+                    innerHTML: (target as any).innerHTML,
+                    width: (target as any).offsetWidth,
+                    height: (target as any).offsetHeight,
                     viewport: {
                         width: window.innerWidth,
                         height: window.innerHeight

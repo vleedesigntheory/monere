@@ -1,6 +1,6 @@
 import { Core } from "@monere/core";
 import { Plugin } from "@monere/plugin";
-import { setConfig } from '@moner/shared'
+import { setConfig } from '@monere/shared'
 import { pv } from "@monere/plugin-behavior-pv";
 import { click } from '@monere/plugin-behavior-click';
 import { duration } from '@monere/plugin-behavior-duration';

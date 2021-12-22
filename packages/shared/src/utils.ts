@@ -30,7 +30,7 @@ export function extend( to: any, _from: any ) {
     return to;
 }
 
-export function onBFCacheRestore(callback) {
+export function onBFCacheRestore(callback:Function) {
     window.addEventListener('pageshow', event => {
         if(event.persisted) {
             callback(event)
@@ -38,12 +38,12 @@ export function onBFCacheRestore(callback) {
     }, true)
 }
 
-export function onBeforeunload(callback) {
-    window.addEventListener('beforeunload', callback, true)
+export function onBeforeunload(callback:Function) {
+    window.addEventListener('beforeunload', callback as any, true)
 }
 
-export function onHidden(callback, once) {
-    const onHiddenOrPageHide = (event) => {
+export function onHidden(callback:Function, once:any) {
+    const onHiddenOrPageHide = (event:any) => {
         if(event.type === 'pagehide' || document.visibilityState === 'hidden') {
             callback(event)
             if(once) {
@@ -57,7 +57,7 @@ export function onHidden(callback, once) {
     window.addEventListener('pagehide', onHiddenOrPageHide, true);
 }
 
-export function executeAfterLoad(callback) {
+export function executeAfterLoad(callback:Function) {
     if( document.readyState === 'complete' ) {
         callback()
     } else {

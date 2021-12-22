@@ -7,7 +7,7 @@ export class Core {
   behaviorPlugins: any
   performancePlugins: any
   errorPlugins: any
-  constructor(options: Object) {
+  constructor(options: IOptions) {
     this.options = options;
     this.behaviorPlugins = [];
     this.performancePlugins = [];
