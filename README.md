@@ -16,6 +16,7 @@ Monere (pronounced /mɔ:nei'li:/, like the chinese '莫奈里') is A Web Monitor
 |[plugin-behavior-click](https://github.com/vee-monere/monere/tree/main/packages/plugin-behavior-click)|数据监控，点击事件埋点|
 |[plugin-behavior-duration](https://github.com/vee-monere/monere/tree/main/packages/plugin-behavior-duration)|数据监控，页面停留时长|
 |[plugin-behavior-pagechange](https://github.com/vee-monere/monere/tree/main/packages/plugin-behavior-pagechange)|数据监控，页面切换|
+|[plugin-error-wrong](https://github.com/vee-monere/monere/tree/main/packages/plugin-error-wrong)|错误监控，js错误|
 
 ## Documentation
 

@@ -1,6 +1,6 @@
 {
   "name": "@monere/error",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "@monere/error",
   "main": "dist/error.cjs.js",
   "module": "dist/error.esm-bundler.js",
@@ -14,7 +14,7 @@
     ]
   },
   "dependencies": {
-    "@monere/shared": "1.0.6"
+    "@monere/shared": "1.1.0"
   },
   "repository": {
     "type": "git",

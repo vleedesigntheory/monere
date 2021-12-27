@@ -23,3 +23,7 @@ export function isPlugin(pluginName: String): Boolean {
         return false;
     }
 }
+
+export function isSupportPerformanceObserver() {
+    return !!window.PerformanceObserver
+}

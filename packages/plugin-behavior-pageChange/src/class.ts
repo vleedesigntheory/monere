@@ -1,7 +1,7 @@
 import { Plugin } from '@monere/plugin';
 import { pagechange } from './pagechange'
 
-export class PluginBehaviorPV {
+export class PluginBehaviorPageChange {
     constructor() {
         new Plugin('monere-behavior-pagechange', pagechange)
     }

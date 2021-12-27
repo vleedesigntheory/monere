@@ -1,12 +1,12 @@
 {
-  "name": "@monere/plugin-behavior-duration",
+  "name": "@monere/plugin-performance-observer",
   "version": "1.1.0",
-  "description": "@monere/plugin-behavior-duration",
-  "main": "dist/plugin-behavior-duration.cjs.js",
-  "module": "dist/plugin-behavior-duration.esm-bundler.js",
-  "unpkg": "dist/plugin-behavior-duration.global.js",
+  "description": "@monere/plugin-performance-observer",
+  "main": "dist/plugin-performance-observer.cjs.js",
+  "module": "dist/plugin-performance-observer.esm-bundler.js",
+  "unpkg": "dist/plugin-performance-observer.global.js",
   "buildOptions": {
-    "name": "MonerePluginDuration",
+    "name": "MonerePluginObserver",
     "formats": [
       "esm-bundler",
       "cjs",
@@ -16,13 +16,13 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/veeui/monere.git",
-    "directory": "packages/plugin-behavior-duration"
+    "directory": "packages/plugin-performance-observer"
   },
   "keywords": [
     "monere",
     "plugin",
-    "behavior",
-    "duration"
+    "performance",
+    "observer"
   ],
   "author": "李恒谦",
   "license": "ISC",

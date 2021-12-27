@@ -1,12 +1,12 @@
 {
-  "name": "@monere/plugin-behavior-pv",
+  "name": "@monere/plugin-error-wrong",
   "version": "1.1.0",
-  "description": "@monere/plugin-behavior-pv",
-  "main": "dist/plugin-behavior-pv.cjs.js",
-  "module": "dist/plugin-behavior-pv.esm-bundler.js",
-  "unpkg": "dist/plugin-behavior-pv.global.js",
+  "description": "@monere/plugin-error-wrong",
+  "main": "dist/plugin-error-wrong.cjs.js",
+  "module": "dist/plugin-error-wrong.esm-bundler.js",
+  "unpkg": "dist/plugin-error-wrong.global.js",
   "buildOptions": {
-    "name": "MonerePluginPV",
+    "name": "MonerePluginWrong",
     "formats": [
       "esm-bundler",
       "cjs",
@@ -20,13 +20,13 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/veeui/monere.git",
-    "directory": "packages/plugin-behavior-pv"
+    "directory": "packages/plugin-error-wrong"
   },
   "keywords": [
     "monere",
     "plugin",
-    "behavior",
-    "pv"
+    "error",
+    "wrong"
   ],
   "author": "李恒谦",
   "license": "ISC",

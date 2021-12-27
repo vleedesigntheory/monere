@@ -1,6 +1,6 @@
 {
   "name": "monere",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "A Web Monitor SDK",
   "scripts": {
     "dev": "node scripts/dev.js",
@@ -35,5 +35,8 @@
   "bugs": {
     "url": "https://github.com/veeui/monere/issues"
   },
-  "homepage": "https://github.com/veeui/monere#readme"
+  "homepage": "https://github.com/veeui/monere#readme",
+  "dependencies": {
+    "@monere/plugin-performance-observer": "1.1.0"
+  }
 }
