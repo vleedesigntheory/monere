@@ -1,10 +1,6 @@
 {
   "name": "@monere/performance",
-<<<<<<< HEAD
   "version": "1.0.6",
-=======
-  "version": "1.0.5",
->>>>>>> main
   "description": "@monere/performance",
   "main": "dist/performance.cjs.js",
   "module": "dist/performance.esm-bundler.js",
@@ -18,11 +14,7 @@
     ]
   },
   "dependencies": {
-<<<<<<< HEAD
     "@monere/shared": "1.0.6"
-=======
-    "@monere/shared": "1.0.5"
->>>>>>> main
   },
   "repository": {
     "type": "git",

@@ -1,10 +1,6 @@
 {
   "name": "@monere/plugin",
-<<<<<<< HEAD
   "version": "1.0.6",
-=======
-  "version": "1.0.5",
->>>>>>> main
   "description": "@monere/plugin",
   "main": "dist/plugin.cjs.js",
   "module": "dist/plugin.esm-bundler.js",
