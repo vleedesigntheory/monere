@@ -1,3 +1,3 @@
-# @monere/plugin-performce-fetch
+# @monere/plugin-performce-xhr
 
-性能监控插件 -- fetch请求上报
+性能监控插件 -- xhr请求上报

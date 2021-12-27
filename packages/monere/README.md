@@ -21,21 +21,12 @@ $ npm install monere
 import { Monere } from 'monere';
 
 new Monere({
-<<<<<<< HEAD
     url: '', // 监控服务器地址
-=======
-    url: '',
->>>>>>> main
     appID: '',
     userID: '',
     plugins: []
 })
 ```
-<<<<<<< HEAD
-## Plugins
-
-=======
->>>>>>> main
 ## Plugins
 
 |Project|Description|
@@ -44,6 +35,11 @@ new Monere({
 |[plugin-behavior-click](https://github.com/vee-monere/monere/tree/main/packages/plugin-behavior-click)|数据监控，点击事件埋点|
 |[plugin-behavior-duration](https://github.com/vee-monere/monere/tree/main/packages/plugin-behavior-duration)|数据监控，页面停留时长|
 |[plugin-behavior-pagechange](https://github.com/vee-monere/monere/tree/main/packages/plugin-behavior-pagechange)|数据监控，页面切换|
+|[plugin-error-wrong](https://github.com/vee-monere/monere/tree/main/packages/plugin-error-wrong)|错误监控，js错误|
+|[plugin-performance-fetch](https://github.com/vee-monere/monere/tree/main/packages/plugin-performacne-fetch)|性能监控，fetch请求|
+|[plugin-performance-fps](https://github.com/vee-monere/monere/tree/main/packages/plugin-performacne-fps)|性能监控，每秒传输帧数|
+|[plugin-performance-xhr](https://github.com/vee-monere/monere/tree/main/packages/plugin-performacne-xhr)|性能监控，xhr请求|
+|[plugin-performance-observer](https://github.com/vee-monere/monere/tree/main/packages/plugin-performacne-observer)|性能监控，CLS、Entries、FID、FSP、LCP、Paint、Load|
 
 ## License
 
