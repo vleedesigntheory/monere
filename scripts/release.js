@@ -111,10 +111,10 @@ async function main() {
   }
 
   // push to GitHub
-  step('\nPushing to GitHub...')
-  await runIfNotDry('git', ['tag', `v${targetVersion}`])
-  await runIfNotDry('git', ['push', 'origin', `refs/tags/v${targetVersion}`])
-  await runIfNotDry('git', ['push'])
+  // step('\nPushing to GitHub...')
+  // await runIfNotDry('git', ['tag', `v${targetVersion}`])
+  // await runIfNotDry('git', ['push', 'origin', `refs/tags/v${targetVersion}`])
+  // await runIfNotDry('git', ['push'])
 
   if (isDryRun) {
     console.log(`\nDry run finished - run git diff to see package changes.`)
