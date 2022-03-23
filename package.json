@@ -37,6 +37,6 @@
   },
   "homepage": "https://github.com/veeui/monere#readme",
   "dependencies": {
-    "@monere/plugin-performance-observer": "1.1.0"
+    "@monere/plugin-performance-observer": "1.1.1"
   }
 }

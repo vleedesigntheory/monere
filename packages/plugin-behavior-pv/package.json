@@ -1,6 +1,6 @@
 {
   "name": "@monere/plugin-behavior-pv",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "@monere/plugin-behavior-pv",
   "main": "dist/plugin-behavior-pv.cjs.js",
   "module": "dist/plugin-behavior-pv.esm-bundler.js",
@@ -14,8 +14,8 @@
     ]
   },
   "dependencies": {
-    "@monere/plugin": "1.1.0",
-    "@monere/shared": "1.1.0"
+    "@monere/plugin": "1.1.1",
+    "@monere/shared": "1.1.1"
   },
   "repository": {
     "type": "git",

@@ -5,7 +5,7 @@ importers:
   .:
     specifiers:
       '@microsoft/api-extractor': 7.15.1
-      '@monere/plugin-performance-observer': 1.1.0
+      '@monere/plugin-performance-observer': 1.1.1
       '@rollup/plugin-commonjs': 18.0.0
       '@rollup/plugin-json': ^4.1.0
       '@rollup/plugin-node-resolve': 11.2.1
@@ -39,16 +39,16 @@ importers:
 
   packages/behavior:
     specifiers:
-      '@monere/shared': 1.1.0
+      '@monere/shared': 1.1.1
     dependencies:
       '@monere/shared': link:../shared
 
   packages/core:
     specifiers:
-      '@monere/behavior': 1.1.0
-      '@monere/error': 1.1.0
-      '@monere/performance': 1.1.0
-      '@monere/plugin': 1.1.0
+      '@monere/behavior': 1.1.1
+      '@monere/error': 1.1.1
+      '@monere/performance': 1.1.1
+      '@monere/plugin': 1.1.1
     dependencies:
       '@monere/behavior': link:../behavior
       '@monere/error': link:../error
@@ -57,17 +57,17 @@ importers:
 
   packages/error:
     specifiers:
-      '@monere/shared': 1.1.0
+      '@monere/shared': 1.1.1
     dependencies:
       '@monere/shared': link:../shared
 
   packages/monere:
     specifiers:
-      '@monere/core': 1.1.0
-      '@monere/plugin': 1.1.0
-      '@monere/plugin-behavior-pv': 1.1.0
-      '@monere/plugin-performance-observer': 1.1.0
-      '@monere/shared': 1.1.0
+      '@monere/core': 1.1.1
+      '@monere/plugin': 1.1.1
+      '@monere/plugin-behavior-pv': 1.1.1
+      '@monere/plugin-performance-observer': 1.1.1
+      '@monere/shared': 1.1.1
     dependencies:
       '@monere/core': link:../core
       '@monere/plugin': link:../plugin
@@ -77,7 +77,7 @@ importers:
 
   packages/performance:
     specifiers:
-      '@monere/shared': 1.1.0
+      '@monere/shared': 1.1.1
     dependencies:
       '@monere/shared': link:../shared
 
@@ -86,72 +86,72 @@ importers:
 
   packages/plugin-behavior-click:
     specifiers:
-      '@monere/plugin': 1.1.0
-      '@monere/shared': 1.1.0
+      '@monere/plugin': 1.1.1
+      '@monere/shared': 1.1.1
     dependencies:
       '@monere/plugin': link:../plugin
       '@monere/shared': link:../shared
 
   packages/plugin-behavior-duration:
     specifiers:
-      '@monere/plugin': 1.1.0
-      '@monere/shared': 1.1.0
+      '@monere/plugin': 1.1.1
+      '@monere/shared': 1.1.1
     dependencies:
       '@monere/plugin': link:../plugin
       '@monere/shared': link:../shared
 
   packages/plugin-behavior-pageChange:
     specifiers:
-      '@monere/plugin': 1.1.0
-      '@monere/shared': 1.1.0
+      '@monere/plugin': 1.1.1
+      '@monere/shared': 1.1.1
     dependencies:
       '@monere/plugin': link:../plugin
       '@monere/shared': link:../shared
 
   packages/plugin-behavior-pv:
     specifiers:
-      '@monere/plugin': 1.1.0
-      '@monere/shared': 1.1.0
+      '@monere/plugin': 1.1.1
+      '@monere/shared': 1.1.1
     dependencies:
       '@monere/plugin': link:../plugin
       '@monere/shared': link:../shared
 
   packages/plugin-error-wrong:
     specifiers:
-      '@monere/plugin': 1.1.0
-      '@monere/shared': 1.1.0
+      '@monere/plugin': 1.1.1
+      '@monere/shared': 1.1.1
     dependencies:
       '@monere/plugin': link:../plugin
       '@monere/shared': link:../shared
 
   packages/plugin-performance-fetch:
     specifiers:
-      '@monere/plugin': 1.1.0
-      '@monere/shared': 1.1.0
+      '@monere/plugin': 1.1.1
+      '@monere/shared': 1.1.1
     dependencies:
       '@monere/plugin': link:../plugin
       '@monere/shared': link:../shared
 
   packages/plugin-performance-fps:
     specifiers:
-      '@monere/plugin': 1.1.0
-      '@monere/shared': 1.1.0
+      '@monere/plugin': 1.1.1
+      '@monere/shared': 1.1.1
     dependencies:
       '@monere/plugin': link:../plugin
       '@monere/shared': link:../shared
 
   packages/plugin-performance-observer:
     specifiers:
-      '@monere/plugin': 1.1.0
-      '@monere/shared': 1.1.0
+      '@monere/plugin': 1.1.1
+      '@monere/shared': 1.1.1
     dependencies:
       '@monere/plugin': link:../plugin
       '@monere/shared': link:../shared
 
   packages/plugin-performance-xhr:
     specifiers:
-      '@monere/plugin': 1.1.0
-      '@monere/shared': 1.1.0
+      '@monere/plugin': 1.1.1
+      '@monere/shared': 1.1.1
     dependencies:
       '@monere/plugin': link:../plugin
       '@monere/shared': link:../shared

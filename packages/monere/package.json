@@ -1,6 +1,6 @@
 {
   "name": "monere",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "monere",
   "main": "dist/monere.cjs.js",
   "module": "dist/monere.esm-bundler.js",
@@ -14,11 +14,11 @@
     ]
   },
   "dependencies": {
-    "@monere/core": "1.1.0",
-    "@monere/plugin": "1.1.0",
-    "@monere/plugin-behavior-pv": "1.1.0",
-    "@monere/plugin-performance-observer": "1.1.0",
-    "@monere/shared": "1.1.0"
+    "@monere/core": "1.1.1",
+    "@monere/plugin": "1.1.1",
+    "@monere/plugin-behavior-pv": "1.1.1",
+    "@monere/plugin-performance-observer": "1.1.1",
+    "@monere/shared": "1.1.1"
   },
   "repository": {
     "type": "git",

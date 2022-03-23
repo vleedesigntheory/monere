@@ -1,6 +1,6 @@
 {
   "name": "@monere/plugin-performance-xhr",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "@monere/plugin-performance-xhr",
   "main": "dist/plugin-performance-xhr.cjs.js",
   "module": "dist/plugin-performance-xhr.esm-bundler.js",
@@ -14,8 +14,8 @@
     ]
   },
   "dependencies": {
-    "@monere/plugin": "1.1.0",
-    "@monere/shared": "1.1.0"
+    "@monere/plugin": "1.1.1",
+    "@monere/shared": "1.1.1"
   },
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
 {
   "name": "@monere/plugin-performance-observer",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "@monere/plugin-performance-observer",
   "main": "dist/plugin-performance-observer.cjs.js",
   "module": "dist/plugin-performance-observer.esm-bundler.js",
@@ -28,7 +28,7 @@
   "license": "ISC",
   "homepage": "https://github.com/veeui/monere#readme",
   "dependencies": {
-    "@monere/plugin": "1.1.0",
-    "@monere/shared": "1.1.0"
+    "@monere/plugin": "1.1.1",
+    "@monere/shared": "1.1.1"
   }
 }
