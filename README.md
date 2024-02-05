@@ -1,33 +1,37 @@
-# Monere
+<p align="center"><a href="https://github.com/vleedesigntheory/monere" target="_blank" rel="noopener noreferrer"><img width="100" src="https://vleedesigntheory.github.io/design/vi/monerevi20211212/monere.png" alt="logo"></a></p>
 
+<h2 align="center">Monere</h2>
 
-
-<p align="center"><a href="" target="_blank"><img src="https://vleedesigntheory.github.io/design/vi/monerevi20211212/monere.png" width="100"></a></p>
+<hr>
 
 ## Introduction
 
-Monere (pronounced /mɔ:nei'li:/, like the chinese '莫奈里') is A Web Monitor SDK.
+> Monere is A Web Monitor SDK
+
+## Principle
+
+![architecture](assets/architecture.png)
+
+![technology](assets/technology.png)
 
 ## Plugins
 
 |Project|Description|
 |:-:|:-:|
-|[plugin-behavior-pv](https://github.com/vee-monere/monere/tree/main/packages/plugin-behavior-pv)|数据监控，PV埋点|
-|[plugin-behavior-click](https://github.com/vee-monere/monere/tree/main/packages/plugin-behavior-click)|数据监控，点击事件埋点|
-|[plugin-behavior-duration](https://github.com/vee-monere/monere/tree/main/packages/plugin-behavior-duration)|数据监控，页面停留时长|
-|[plugin-behavior-pagechange](https://github.com/vee-monere/monere/tree/main/packages/plugin-behavior-pagechange)|数据监控，页面切换|
-|[plugin-error-wrong](https://github.com/vee-monere/monere/tree/main/packages/plugin-error-wrong)|错误监控，js错误|
-|[plugin-performance-fetch](https://github.com/vee-monere/monere/tree/main/packages/plugin-performacne-fetch)|性能监控，fetch请求|
-|[plugin-performance-fps](https://github.com/vee-monere/monere/tree/main/packages/plugin-performacne-fps)|性能监控，每秒传输帧数|
-|[plugin-performance-xhr](https://github.com/vee-monere/monere/tree/main/packages/plugin-performacne-xhr)|性能监控，xhr请求|
-|[plugin-performance-observer](https://github.com/vee-monere/monere/tree/main/packages/plugin-performacne-observer)|性能监控，CLS、Entries、FID、FSP、LCP、Paint、Load|
-## Documentation
+|[plugin-behavior-pv](https://github.com/vee-monere/monere/tree/main/packages/plugin-behavior-pv)|Behavior Monitor--PV|
+|[plugin-behavior-click](https://github.com/vee-monere/monere/tree/main/packages/plugin-behavior-click)|Behavior Monitor--User Click|
+|[plugin-behavior-duration](https://github.com/vee-monere/monere/tree/main/packages/plugin-behavior-duration)|Behavior Monitor--Page Duration|
+|[plugin-behavior-pagechange](https://github.com/vee-monere/monere/tree/main/packages/plugin-behavior-pagechange)|Behavior Monitor--Page Change|
+|[plugin-error-wrong](https://github.com/vee-monere/monere/tree/main/packages/plugin-error-wrong)|Error Monitor--JS Error|
+|[plugin-performance-fetch](https://github.com/vee-monere/monere/tree/main/packages/plugin-performacne-fetch)|Performance Monitor--Fetch Request|
+|[plugin-performance-fps](https://github.com/vee-monere/monere/tree/main/packages/plugin-performacne-fps)|Performance Monitor--Frame Per Seconds|
+|[plugin-performance-xhr](https://github.com/vee-monere/monere/tree/main/packages/plugin-performacne-xhr)|Performance Monitor--XML Http Request|
+|[plugin-performance-observer](https://github.com/vee-monere/monere/tree/main/packages/plugin-performacne-observer)|Performance Monitor--CLS/Entries/FID/FSP/LCP/Paint/Load|
 
-Todo
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2021-present Victor Lee
+Copyright (c) 2021-present VLeeDesignTheory
 
 
