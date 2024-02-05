@@ -10,7 +10,11 @@
 
 ## Principle
 
+The whole front-end monitoring SDK adopts the plugin-based architecture design scheme, which can form corresponding functions through various plugin integrations.
+
 ![architecture](assets/architecture.png)
+
+For the selection of front-end architecture, an object-oriented programming (OOP) based approach is chosen to integrate functions such as performance, error, and behavior separately.
 
 ![technology](assets/technology.png)
 
